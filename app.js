@@ -98,15 +98,6 @@ app.use("/", userRouter);
 //     res.send(registeredUser);
 // });
 
-app.get("/check", async (req, res) => {
-    const Listing = require("./models/listing");
-    const listings = await Listing.find({});
-    res.json({
-        count: listings.length,
-        first: listings[0]
-    });
-});
-
 app.all("*", (req,res,next) =>{
     next(new ExpressError(404, "Page Not Found!"));
 });
