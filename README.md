@@ -26,7 +26,20 @@ The project adheres to the MVC (Model-View-Controller) architecture for efficien
 ## Deployment on Render
 
 This project is optimized for deployment on Render, a cloud platform.
-Project is acceessible at this link - [`CLICK HERE`](https://wanderlust-e3fy.onrender.com/listings)
+Live Demo - [`CLICK HERE`](https://wanderlust-e3fy.onrender.com/listings)
+
+# Note
+The first request after a period of inactivity may take 30–60 seconds while the server wakes up. Subsequent requests load normally.
+
+## Features
+1. User Authentication (Signup/Login)
+2. Create, Edit & Delete Listings
+3. Cloudinary Image Uploads
+4. Interactive Maps using Leaflet
+5. Reviews and Ratings
+6. Responsive Design
+7. MongoDB Atlas Database
+8. Session-based Authentication with Passport.js
 
 ## Contribution Guidelines
 
