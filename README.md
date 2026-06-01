@@ -26,7 +26,6 @@ The project adheres to the MVC (Model-View-Controller) architecture for efficien
 ## Deployment on Render
 
 This project is optimized for deployment on Render, a cloud platform.
-Live Demo - [`CLICK HERE`](https://wanderlust-e3fy.onrender.com/listings)
 
 # Note
 The first request after a period of inactivity may take 30–60 seconds while the server wakes up. Subsequent requests load normally.
